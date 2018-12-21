@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: command_pattern_spring
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Pactera
+Implementation-Vendor-Id: com.pf
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/command_pattern_spring
+Created-By: Maven Integration for Eclipse
+
