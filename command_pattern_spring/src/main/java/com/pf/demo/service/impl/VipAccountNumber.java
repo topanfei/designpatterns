@@ -7,6 +7,10 @@ import com.pf.demo.service.AccountNumber;
 @Service
 public class VipAccountNumber implements AccountNumber{
 
+	public VipAccountNumber() {
+		System.out.println("---------VipAccountNumber的构造函数----------------");
+	}
+	
 	@Override
 	public String type() {
 		return "vip";

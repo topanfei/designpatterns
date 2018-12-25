@@ -1,5 +1,6 @@
 package com.pf.demo.service.impl;
 
+
 import org.springframework.stereotype.Service;
 
 import com.pf.demo.service.AccountNumber;
@@ -7,6 +8,10 @@ import com.pf.demo.service.AccountNumber;
 @Service
 public class NormalAccountNumber implements AccountNumber{
 
+	public NormalAccountNumber() {
+		System.out.println("---------NormalAccountNumber的构造函数（）-------------");
+	}
+	
 	@Override
 	public String type() {
 		return "normal";

@@ -29,9 +29,10 @@ public class CommandPatternSpringApplicationTests {
 	@Test
 	public void test2() {
 		System.out.println("**********测试************");
-		saleUtil2.sale("normal", "张三");
+		/*saleUtil2.sale("normal", "张三");
 		saleUtil2.sale("vip", "李四");
-		saleUtil2.sale("svip", "王五");
+		saleUtil2.sale("svip", "王五");*/
+		saleUtil2.get();
 	}
 
 }
