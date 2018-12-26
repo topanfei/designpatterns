@@ -12,6 +12,7 @@ import com.pf.subject.Subject;
  */
 public class Test {
 	public static void main(String[] args) {
+		
 		Subject subject = new Subject();
 		//初始化观察者对象
 		new ObserverOne(subject);
