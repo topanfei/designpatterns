@@ -1,0 +1,13 @@
+参考博客：https://segmentfault.com/a/1190000011433514#articleHeader6
+
+在spring内部中有多种方式实现监听，如
+（1）@EventListener注解
+（2）实现ApplicationListener泛型接口
+（3）实现SmartApplicationListener接口，监听的类执行时是可以有顺序的
+
+其中demo1中用的是@EventListener注解实现的
+   demo2中用的是实现ApplicationListener泛型接口
+   demo3中用的是实现SmartApplicationListener接口
+   demo4中用的是在demo3的基础上用@Async实现异步监听。（@Async其实是spring内的一个组件，可以完成对类内单个或者多个方法实现异步调用，这样可以大大节省等待耗时。
+ 			内部实现机制是线程池任务ThreadPoolTaskExecutor，通过线程池来配置@Async的方法或者类做出执行动作 ）
+   ）
